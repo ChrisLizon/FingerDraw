@@ -1,0 +1,9 @@
+This is a demo application prepared for UOIT CSCI 4100U Fall 2011. 
+
+This project assumes that the user has the Android SDK installed and is able to compile a default Hello World application.
+
+The instructions for configuring the sdk can be found at http://developer.android.com/sdk/installing.html
+
+This is built for SDK 7 coresponding to Android 2.1
+
+Code is compliant to Java 1.6 specifications.

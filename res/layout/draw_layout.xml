@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" android:id="@+id/drawing_screen_drawlocation" android:layout_alignParentTop="true" android:layout_marginBottom="50dip">
+	    <ca.lizon.fingerdraw.DrawView android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/drawing_screen_drawview" />
+	</LinearLayout>
+	<LinearLayout android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_width="fill_parent" android:weightSum="3">
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/drawing_screen_undobutton" android:text="Undo" android:layout_weight="1.25"></Button>
+		<RadioGroup android:id="@+id/drawing_screen_buttons" android:weightSum="2" android:orientation="horizontal" android:layout_height="50dip" android:layout_width="wrap_content" android:layout_weight="1.75" android:layout_marginLeft="40dip">
+			<RadioButton android:text="Draw" android:layout_width="wrap_content" android:id="@+id/drawing_screen_drawbutton" android:layout_height="wrap_content" android:layout_weight=".75"></RadioButton>
+			<RadioButton android:text="Erase" android:layout_width="wrap_content" android:id="@+id/drawing_screen_erasebutton" android:layout_height="wrap_content" android:layout_weight=".75"></RadioButton>
+		</RadioGroup>
+	</LinearLayout>
+</RelativeLayout>
